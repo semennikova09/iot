@@ -23,7 +23,7 @@ AsyncWebServer server(80);
 int ledState = LOW;
 long previousMillis = 0;
 const long interval = 100; // интервал между измерениями
-const int duration = 1400; // продолжительность измерений
+const int duration = 2000; // продолжительность измерений
 int currentDuration = 0;
 int currentNumOfReads = 0;
 double sumOfTemp = 0.0;
