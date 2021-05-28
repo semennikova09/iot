@@ -5,8 +5,8 @@
 #include <Adafruit_MLX90614.h>
 
 // Вставьте ниже SSID и пароль для своей WiFi-сети:
-const char* ssid = "Kaifushechki";
-const char* password = "10203040";
+const char* ssid = "";
+const char* password = "";
 
 String ssidAP = "ESP_WiFi"; // SSID AP точки доступа
 String passwordAP = ""; // пароль точки доступа
